@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/704403314/test-mod/function"
 )
 
 type User struct {
@@ -11,11 +12,9 @@ type User struct {
 	Slice  []int64
 }
 
-func init() {
-	fmt.Println("-----applicant 1--------")
-}
 func main() {
-	fmt.Println("new project")
+	strLen := function.GetStringLen("1234567")
+	fmt.Println(strLen)
 	var applicant User
 
 	userJson := "{\n    \"name\":\"1239999\",\n    \"kycEmi\":\"2023-02-16 09:31:07\",\n    \"key\":\"VMMMJYVADBHYYT\"}"
