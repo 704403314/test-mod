@@ -11,6 +11,9 @@ type User struct {
 	Slice  []int64
 }
 
+func init() {
+	fmt.Println("-----applicant 1--------")
+}
 func main() {
 	fmt.Println("new project")
 	var applicant User
