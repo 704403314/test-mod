@@ -1,1 +1,1 @@
-module github.com/704403314test-mod
+module github.com/704403314/test-mod
